@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Online Food Delivery Service in india</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,500;1,500&family=Roboto+Condensed&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,500;1,500&family=Oswald:wght@700&family=Roboto+Condensed&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    /*css reset*/
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /*css variable*/
+    /*navbar*/
+    #navbar {
+        display: flex;
+        font-family: 'Noto Serif', serif;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        align-items: center;
+    }
+
+    /*navigation bar logo and img*/
+    #logo {
+        margin: 5px 17px;
+
+
+    }
+
+    #logo img {
+        margin: 9px 16px;
+        height: 51px;
+
+    }
+
+    /*navigation bar syling list*/
+    #navbar {
+        position: relative;
+    }
+
+    #navbar ul {
+        display: flex;
+    }
+
+    #navbar ul li {
+
+        list-style: none;
+        font-size: 1.3rem;
+    }
+
+    /*#navbar::before {
+        content: "";
+    
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: .4;
+    }*/
+    #navbar::before {
+        content: "";
+        background-color: black;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.7;
+    }
+
+    #navbar ul li a {
+        color: white;
+        padding: 2px 22px;
+        border-radius: 10px;
+        text-decoration: none;
+        display: block;
+    }
+
+    #navbar ul li a:hover {
+        color: black;
+        background-color: white;
+    }
+
+    /*home section*/
+    #home {
+        display: flex;
+        height: 590px;
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #home::before {
+        content: "";
+        background: url("bg1.jpg") no-repeat center center/cover;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        z-index: -1;
+        opacity: .89;
+
+    }
+
+    #home h1 {
+        color: white;
+        font-family: 'Noto Serif', serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        text-align: center;
+    }
+
+    #home p {
+        color: white;
+        font-family: 'Noto Serif', serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    /*services container*/
+    #services {
+        margin: 34;
+        display: flex;
+
+    }
+
+    #services .box {
+        border: 2px solid brown;
+        padding: 33px;
+        margin: 16px 26px;
+        font-family: 'Noto Serif', serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        height: 209px;
+        width: 385px;
+        border-radius: 10px;
+        background-color: #e4e3e3;
+
+    }
+
+    #services .box img {
+
+        height: 100px;
+        display: block;
+        margin: auto;
+    }
+
+
+    /*utility class*/
+    .h-primary {
+        font-size: 2.8rem;
+        padding: 12px;
+        font-family: 'Noto Serif', serif;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+
+    }
+
+    .h-secondry {
+        font-size: 2.2rem;
+        text-align: center;
+        padding: 12px;
+        font-family: 'Noto Serif', serif;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .h-primary centre {
+        font-family: 'Noto Serif', serif;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+
+    }
+
+    .btn {
+        padding: 6px 20px;
+        border: 2px solid white;
+        background-color: brown;
+        margin: 20px;
+        border-radius: 11px;
+        font-size: 1.4rem;
+        cursor: pointer;
+    }
+
+    .centre {
+        text-align: center;
+    }
+
+    #exitement h4 {
+        color: red;
+    }
+</style>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="C:\Users\Rahul Saxena\Downloads\Screenshot_20220729_082253.jpg" alt="MyOnlineMeal.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to my online meal</h1>
+        <p>
+            Hello Everyone Welcome Back to the india's Best
+            food ordring platform. here we provies you all kind of food likeSouth indian
+            north indian food,chinese food and many more
+        </p>
+        <p>Then Why are you waiting Just
+            clik on <p4>Order Now</p4>
+        </p>
+        <button class="btn">Order Now</button>
+    </section>
+    <section class="service-container">
+        <h1 class="h-primary centre"> Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="C:\Users\Rahul Saxena\OneDrive\Desktop\gate c programming\Gym Website\Project-2\1.png" alt="">
+                <h2 class="h-secondry centre">Food Ordering</h2>
+                <p class="centre">Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Quas assumenda consequatur optio eum pl
+                    aceat! Vel molestiae, quas nulla inventore dolor vero ad
+                    quia</p>
+            </div>
+            <div class="box">
+                <img src="C:\Users\Rahul Saxena\OneDrive\Desktop\gate c programming\Gym Website\Project-2\2.png" alt="">
+                <h2 class="h-secondry">Food Catering</h2>
+                <p class="centre">Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Quas assumenda consequatur optio eum pl
+                    aceat! Vel molestiae, quas nulla inventore dolor vero ad
+                    quia</p>
+            </div>
+            <div class="box">
+                <img src="C:\Users\Rahul Saxena\OneDrive\Desktop\gate c programming\Gym Website\Project-2\3.png" alt="">
+                <h2 class="h-secondry">Food ordering</h2>
+                <p class="centre">Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Quas assumenda consequatur optio eum pl
+                    aceat! Vel molestiae, quas nulla inventore dolor vero ad
+                    quia</p>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>
